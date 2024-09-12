@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    android:background="#af4c17">
+    android:background="#10c7cd">
 
     <!-- Add Item EditText with Floating Action Button -->
     <EditText
@@ -27,6 +27,7 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
+        android:backgroundTint="#06f67b"
         android:layout_height="0dp"
         android:layout_above="@id/addItemEditText"
         android:layout_alignParentTop="true"

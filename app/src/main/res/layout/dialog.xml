@@ -25,7 +25,7 @@
             android:layout_marginTop="16dp"
             android:hint="Item Name"
             android:padding="12dp"
-            android:textColorHint="#888"
+            android:textColorHint="@color/black"
             android:textSize="16sp"/>
 
     </LinearLayout>
