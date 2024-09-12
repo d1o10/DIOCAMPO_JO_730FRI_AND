@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F0F0F0">
+
+    <!-- Add Item EditText with Floating Action Button -->
+    <EditText
+        android:id="@+id/addItemEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_edit_text_background"
+        android:hint="Tap here to add an item"
+        android:padding="14dp"
+        android:textColorHint="#757575"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_add_item"
+        android:drawablePadding="8dp" />
+
+    <!-- Floating Action Button for adding an item -->
+
+    <!-- Custom ListView -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/addItemEditText"
+        android:layout_alignParentTop="true"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="3dp"
+        android:background="@drawable/list_background"/>
+
+</RelativeLayout>
