@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="add_headline">Add Headline</string>
+    <string name="show_headlines">Show Headlines</string>
+    <string name="show_news_content">Show News Content</string>
+    <string name="enter_headline">News</string>
+    <string name="enter_newscontent">News</string>
+    <string name="submit">News</string>
+    <string name="headline_list">News</string>
+</resources>

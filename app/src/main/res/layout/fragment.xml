@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <EditText
+        android:id="@+id/etHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title of Headline"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter News Content"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:gravity="top"
+        android:minLines="4"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:elevation="4dp"/>
+</LinearLayout>

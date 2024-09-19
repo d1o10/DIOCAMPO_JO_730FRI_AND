@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F3F4F6">
+
+    <Button
+        android:id="@+id/btnAddHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/add_headline"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnShowHeadlines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_headlines"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnShowNewsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_news_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F4511E"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+
+        android:elevation="6dp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/listViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headline_list"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#06f67a"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        android:padding="8dp" />
+</LinearLayout>
