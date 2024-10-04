@@ -1,0 +1,21 @@
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FF6200EE</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionBarColor">#FFFFFF</color>
+    <color name="actionBarTextColor">#000000</color>
+
+    <!-- Additional Colors -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="buttonColor">#FF4081</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="errorColor">#F44336</color>
+    <color name="successColor">#4CAF50</color>
+    <color name="warningColor">#FF9800</color>
+    <color name="linkColor">#2196F3</color>
+    <color name="hoverColor">#E0E0E0</color>
+    <color name="highlightColor">#FFEB3B</color>
+</resources>
